@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Nguyen Ngoc Ly Portfolio</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:linear-gradient(135deg,#b8a6e6,#a78bd8,#b79ee8);
+color:#222;
+line-height:1.8;
+}
+
+/* menu */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.6);
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-size:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd166;
+}
+
+/* hero */
+
+.hero{
+height:450px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin:0;
+}
+
+.hero p{
+font-size:26px;
+}
+
+/* section */
+
+.section{
+max-width:1000px;
+margin:auto;
+padding:80px 25px;
+background:white;
+margin-top:40px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.section h2{
+font-size:36px;
+text-align:center;
+margin-bottom:30px;
+}
+
+.section p{
+font-size:22px;
+text-align:justify;
+text-indent:40px;
+}
+
+.section li{
+font-size:22px;
+margin-bottom:10px;
+}
+
+/* images */
+
+.section img{
+width:100%;
+max-width:500px;
+display:block;
+margin:25px auto;
+border-radius:10px;
+}
+
+/* skill */
+
+.skill{
+margin:20px 0;
+}
+
+.skill-bar{
+width:100%;
+height:14px;
+background:#ddd;
+border-radius:10px;
+overflow:hidden;
+}
+
+.skill-fill{
+height:100%;
+}
+
+.toan{width:85%;background:#ff6b6b;}
+.van{width:90%;background:#4dabf7;}
+.ngoaingu{width:75%;background:#51cf66;}
+.dialy{width:80%;background:#ffd43b;}
+
+/* comment */
+
+.comment-box{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.comment-box input,
+.comment-box textarea{
+padding:10px;
+font-size:18px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.comment-box textarea{
+height:100px;
+}
+
+.comment-box button{
+background:#6c5ce7;
+color:white;
+border:none;
+padding:10px;
+border-radius:20px;
+font-size:18px;
+cursor:pointer;
+}
+
+.comment{
+background:#f3f3f3;
+padding:15px;
+border-radius:10px;
+margin:15px auto;
+max-width:700px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#gioithieu">Giới thiệu</a>
+<a href="#nangluc">Năng lực</a>
+<a href="#duan">Dự án</a>
+<a href="#lienhe">Liên hệ</a>
+</nav>
+
+
+<div class="hero">
+
+<h1>NGUYỄN THỊ NGỌC LÝ</h1>
+
+<p>Class 11B4 • Ton Duc Thang High School</p>
+
+</div>
+
+
+<div class="section" id="gioithieu">
+
+<h2>I. GIỚI THIỆU BẢN THÂN</h2>
+
+<img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f">
+
+<p>
+Tôi tên là Nguyễn Thị Ngọc Lý, hiện đang là học sinh lớp 11B4 tại Trường THPT Tôn Đức Thắng. Tôi sinh ra và lớn lên tại thôn Tân Hưng, xã Ninh Hưng (Nam Ninh Hòa), thị xã Ninh Hòa, tỉnh Khánh Hòa – một vùng đất giàu truyền thống và hiếu học.
+</p>
+
+<p>
+Là một học sinh thuộc khối lớp 11, tôi hiểu rằng đây là giai đoạn quan trọng để định hình tương lai. Tôi luôn nỗ lực học tập và phát triển bản thân để đạt được những mục tiêu trong tương lai.
+</p>
+
+<p>
+Với niềm đam mê đặc biệt dành cho các môn học thuộc tổ hợp Toán – Văn – Anh – Địa, tôi luôn tìm thấy sự kết nối thú vị giữa logic, ngôn ngữ và những kiến thức về thế giới xung quanh.
+</p>
+
+<p>
+Bên cạnh đó, tôi còn có niềm đam mê với Ngôn ngữ Trung. Với tôi, tiếng Trung không chỉ là một công cụ giao tiếp mà còn là cánh cửa mở ra nhiều cơ hội học tập và phát triển nghề nghiệp trong tương lai.
+</p>
+
+</div>
+
+
+<div class="section" id="nangluc">
+
+<h2>II. TÓM TẮT NĂNG LỰC</h2>
+
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+
+<p>Dưới đây là những năng lực chính mà tôi đang phát triển:</p>
+
+<div class="skill">
+Toán - Tư duy Logic
+<div class="skill-bar"><div class="skill-fill toan"></div></div>
+</div>
+
+<div class="skill">
+Ngữ Văn - Viết và cảm thụ
+<div class="skill-bar"><div class="skill-fill van"></div></div>
+</div>
+
+<div class="skill">
+Ngoại ngữ - Anh & Trung
+<div class="skill-bar"><div class="skill-fill ngoaingu"></div></div>
+</div>
+
+<div class="skill">
+Địa lý - Kiến thức xã hội
+<div class="skill-bar"><div class="skill-fill dialy"></div></div>
+</div>
+
+<p>
+Ngoài kiến thức học tập, tôi còn phát triển kỹ năng làm việc nhóm, kỹ năng tự học và khả năng thích nghi với các môi trường học tập khác nhau.
+</p>
+
+</div>
+
+
+<div class="section" id="duan">
+
+<h2>III. CÁC DỰ ÁN ĐÃ THỰC HIỆN</h2>
+
+<img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8">
+
+<p>
+Trong quá trình học tập tại trường THPT Tôn Đức Thắng, tôi đã tham gia nhiều hoạt động và dự án học tập.
+</p>
+
+<ul>
+
+<li>
+<b>Dự án "Lan tỏa văn hóa đọc"</b>: tham gia nhóm nội dung, giới thiệu các tác phẩm văn học hay đến các bạn trong lớp.
+</li>
+
+<li>
+<b>Dự án "Học ngoại ngữ qua âm nhạc"</b>: xây dựng danh sách các bài hát tiếng Anh và tiếng Trung để luyện nghe và phát âm.
+</li>
+
+<li>
+<b>Hoạt động tình nguyện</b>: tham gia dọn dẹp môi trường và giúp đỡ thiếu nhi tại địa phương.
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="section" id="lienhe">
+
+<h2>IV. LIÊN HỆ BẢN THÂN</h2>
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+<p>
+Trong tương lai, tôi mong muốn tiếp tục phát triển khả năng học tập và đặc biệt là nâng cao trình độ ngoại ngữ để có thể mở rộng cơ hội học tập và làm việc trong môi trường quốc tế.
+</p>
+
+<p>
+Tôi luôn tin rằng mọi nỗ lực ngày hôm nay sẽ trở thành nền tảng cho thành công trong tương lai.
+</p>
+
+<p><b>Thông tin liên hệ:</b></p>
+
+<p>Họ tên: Nguyễn Thị Ngọc Lý</p>
+<p>Email: nguyenthingocli2009@gmail.com</p>
+<p>Địa chỉ: Ninh Hòa, Khánh Hòa</p>
+
+<h2>Bình luận</h2>
+
+<div class="comment-box">
+
+<input id="name" placeholder="Tên của bạn">
+
+<textarea id="text" placeholder="Viết bình luận..."></textarea>
+
+<button onclick="addComment()">Gửi</button>
+
+</div>
+
+<div id="comments"></div>
+
+</div>
+
+
+<footer>
+
+<p>Portfolio Student • Ton Duc Thang High School</p>
+
+</footer>
+
+
+<script>
+
+function addComment(){
+
+let name=document.getElementById("name").value
+let text=document.getElementById("text").value
+
+if(name==""||text=="") return
+
+let comments=JSON.parse(localStorage.getItem("comments"))||[]
+
+comments.push({name:name,text:text})
+
+localStorage.setItem("comments",JSON.stringify(comments))
+
+showComments()
+
+}
+
+function showComments(){
+
+let comments=JSON.parse(localStorage.getItem("comments"))||[]
+
+let area=document.getElementById("comments")
+
+area.innerHTML=""
+
+comments.forEach(c=>{
+
+area.innerHTML+=`
+<div class="comment">
+<b>${c.name}</b><br>
+${c.text}
+</div>
+`
+
+})
+
+}
+
+showComments()
+
+</script>
+
+
+</body>
+</html>
